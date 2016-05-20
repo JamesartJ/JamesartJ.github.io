@@ -1,0 +1,505 @@
+/*BASIC SHIT*/
+@import url(http://nicholastodor.com/sf/usesf.css);
+@font-face { font-family: Futura LT; src: url('FuturaLT-*.ttf'); } 
+
+body {
+	font-family: 'San Francisco', sans-serif;
+	color: #222;
+}
+
+.body-text {
+	font-family: 'San Francisco', sans-serif;
+	line-height: 170%;
+	font-size: 13px;
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+}
+
+nav a {
+	font-size: 1em;
+}
+
+/*NAV AND HEADER*/
+
+header {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.7em;
+	padding-top: 30px;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 0 0 7px;
+	letter-spacing: 2px;
+}
+
+.hero {
+
+	padding-top: 70px;
+	padding-bottom: 20px;
+	font-size: 60px;
+}
+
+.hero h2 {
+	font-family: Futura LT, sans-serif;
+	font-weight: 400;
+	font-size: 0.5em;
+	line-height: 140%;
+}
+
+.venu {
+	background-color: #FB3F76;
+}
+
+.knowles {
+	background-color: #bf656a;
+}
+
+.abroad {
+	background-color: #ff7449
+}
+
+.trngle {
+	// background-color: #3E3E4C;
+	background-color: #FFA300;
+}
+
+.ata {
+	background-color: #01CDFF;
+}
+
+.hostapup {
+	background-color: #60be78;
+}
+
+.row {
+	margin: 20px 0 20px 0;
+}
+ 
+.text {
+	padding: 10px 40px 40px 40px;
+}
+
+.title {
+	color: white;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+	line-height: 150%;
+	text-align: center;s
+}
+
+.description { 
+	font-family: 'San Francisco', sans-serif;
+	font-weight: 100;
+	color: white;
+	font-size: 11px;
+	line-height: 150%; 
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+hr {
+	display: block;
+	margin: auto;
+	width: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+footer h2 {
+	padding-bottom: 15px;
+}
+
+/************************************************************
+
+ABROAD PAGE
+
+**************************************************************/
+
+.project-title {
+	font-family: Futura LT, sans-serif;
+	padding-top: 80px;
+	margin-bottom: 40px;
+	font-size: 60px;
+}
+
+.project-title h2 {
+	font-weight: 400;
+	font-size: 0.5em;
+	line-height: 140%;
+}
+
+.abroad-logo {
+	width: 200px;
+	margin: auto;
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.symbols {
+	font-size: 0;
+}
+
+.one-third-frame {
+	font-size: 0;
+	width: 33.3333%;
+	display: inline-block;
+	margin: auto;
+}
+
+.symbol-title {
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'San Francisco', sans-serif;
+}
+
+.color-and-type-abroad {
+	width: 70%;
+	margin: auto;
+}
+
+.color-and-type-abroad h3 {
+	color: #ff7449;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 22px;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.fancy-border-abroad {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.fancy-border-abroad li {
+	display: inline-block;
+	width: 33.3333%;
+	height: 7px;
+}
+
+.fancy-border-abroad li:nth-child(1) {
+  background:#FF6037;
+}
+
+.fancy-border-abroad li:nth-child(2) {
+  background:#FFA58C;
+}
+
+.fancy-border-abroad li:nth-child(3) {
+  background:#FFD2C6;
+}
+
+.font-showcase-abroad {
+	font-family: 'GT-Walsheim-Pro', sans-serif;
+	font-size: 22px;
+	line-height: 200%;
+}
+
+.orange {
+	color: #FF6034;
+}
+
+.grey {
+	color: #656565;
+}
+
+.font-showcase-abroad li:nth-child(1) {
+	font-weight: 100;
+}
+
+.font-showcase-abroad li:nth-child(2) {
+	font-weight: 400;
+}
+
+.font-showcase-abroad li:nth-child(3) {
+	font-weight: 200;
+}
+
+.font-showcase-abroad li:nth-child(4) {
+	font-weight: 100;
+}
+
+.evenly {
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+}
+.evenly div {
+  white-space:nowrap;
+  background:gray;
+}
+
+.colors {
+	margin-bottom: 40px;
+}
+
+.colors div {
+	margin: 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+.colors div p {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.colors div:nth-child(1) {
+	background-color: #FF6034;
+	color: #FF6034;
+}
+
+.colors div:nth-child(2) {
+	background-color: #656565;
+	color: #656565;
+}
+
+.colors div:nth-child(3) {
+	background-color: #979797;
+	color: #979797;
+}
+
+.colors div:nth-child(4) {
+	background-color: #cccccc;
+	color: #cccccc;
+}
+
+.colors div:nth-child(5) {
+	background-color: #f5f5f5;
+	color: #cccccc;
+}
+
+.abroadapp-icon {
+	width: 50px;
+	margin: auto;
+	display: block;
+	border: 3px solid #FF6034;
+	border-radius: 12px;
+	padding: 10px 16px 10px 16px;
+}
+
+.app-preview h3 {
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	margin: auto;
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 4px;
+	margin-top: 30px;
+}
+
+/************************************************************
+
+VENU PAGE
+
+**************************************************************/
+
+.venu-paper {
+	display: block;
+	width: 60%;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.venu-img {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.venu-title {
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #FB3F76;
+	letter-spacing: 40px;
+	padding-left: 40px;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.color-and-type-venu {
+	width: 70%;
+	margin: auto;
+}
+
+.color-and-type-venu h3 {
+	color: #FB3F76;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 22px;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.fancy-border-venu {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.fancy-border-venu li {
+	display: inline-block;
+	width: 33.3333%;
+	height: 7px;
+}
+
+.fancy-border-venu li:nth-child(1) {
+  background:#FB3F76;
+}
+
+.fancy-border-venu li:nth-child(2) {
+  background:#FBD9E3;
+}
+
+.fancy-border-venu li:nth-child(3) {
+  background:#F5F5F5;
+}
+
+.font-showcase-venu {
+	font-family: 'GT-Walsheim-Pro', sans-serif;
+	font-size: 22px;
+	line-height: 200%;
+}
+
+.radical-red {
+	color: #FB3F76;
+}
+
+.mine-shaft {
+	color: #333;
+}
+
+.font-showcase-venu li:nth-child(1) {
+	font-weight: 100;
+}
+
+.font-showcase-venu li:nth-child(2) {
+	font-weight: 400;
+}
+
+.font-showcase-venu li:nth-child(3) {
+	font-weight: 200;
+}
+
+.font-showcase-venu li:nth-child(4) {
+	font-weight: 100;
+}
+
+.container-venu {
+	font-size: 0;
+	position: relative;
+ 	width: 100%;
+ 	max-width: 960px;
+  	margin: 0 auto;
+ 	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.color-column {
+	font-size: 17px;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	height: 200px;
+	margin-bottom: 100px;
+}
+
+.color-column p {
+	padding: 15px 5px 5px 5px;
+}
+
+.container-venu .color-column:nth-child(1) {
+	background-color: #333;
+	color: #f5f5f5;
+}
+
+.container-venu .color-column:nth-child(2) {
+	background-color: #FB3F76;
+	color: #FBD9E3;
+}
+
+.container-venu .color-column:nth-child(3) {
+	background-color: #FBD9E3;
+	color:#FB3F76; 
+}
+
+.container-venu .color-column:nth-child(4) {
+	background-color: #f5f5f5;
+	color:#333;
+}/************************************************************
+
+ARTISTS TEACHING ART
+
+**************************************************************/
+
+.plus {
+	width: 40px;
+	display: block;
+	margin: auto;
+	padding: 80px 5px 80px 5px;
+}
+
+
+/************************************************************
+
+ABOUT PAGE
+
+**************************************************************/
+
+.profile {
+	display: block;
+	border-radius: 100%;
+	width: 700px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.profile-container {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	height: 450px;
+	width: 100%;
+	background-image: url(../img/about/large-profile.jpg);
+	background-image: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
