@@ -5,6 +5,8 @@
 body {
 	font-family: 'San Francisco', sans-serif;
 	color: #222;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 .body-text {
@@ -17,6 +19,14 @@ body {
 a {
 	text-decoration: none;
 	color: #222;
+}
+
+h3 {
+	color: #333;
+	font-weight: 600;
+	font-size: 1em;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
 }
 
 nav a {
@@ -47,46 +57,54 @@ nav ul li {
 }
 
 .hero {
-
+	font-family: Futura LT, sans-serif;
 	padding-top: 70px;
 	padding-bottom: 20px;
 	font-size: 60px;
 }
 
-.hero h2 {
-	font-family: Futura LT, sans-serif;
+.hero h2 {	
 	font-weight: 400;
 	font-size: 0.5em;
 	line-height: 140%;
 }
 
 .venu {
+	border-radius: 2px;
 	background-color: #FB3F76;
 }
 
 .knowles {
+	border-radius: 2px;
 	background-color: #bf656a;
 }
 
 .abroad {
+	border-radius: 2px;
 	background-color: #ff7449
 }
 
 .trngle {
-	// background-color: #3E3E4C;
+	background-color:#E6D669;
 	background-color: #FFA300;
 }
 
 .ata {
+	border-radius: 2px;	
 	background-color: #01CDFF;
 }
 
 .hostapup {
+	border-radius: 2px;
 	background-color: #60be78;
 }
 
 .row {
-	margin: 20px 0 20px 0;
+	margin: 0 0 50px 0;
+}
+
+.card {
+	box-shadow: 8px 8px 30px -13px rgba(32, 32, 32, .7);
 }
  
 .text {
@@ -111,6 +129,25 @@ nav ul li {
 	line-height: 150%; 
 	text-align: center;
 	letter-spacing: 1px;
+}
+
+.columns {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.screen {
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+.content-link {
+	text-align: center;
+}
+
+.content-link:hover {
+	text-decoration: underline;
 }
 
 hr {
@@ -224,6 +261,10 @@ ABROAD PAGE
 }
 
 .orange {
+	color: #FF6034;
+}
+
+.orange h3 {
 	color: #FF6034;
 }
 
@@ -433,11 +474,10 @@ VENU PAGE
  	width: 100%;
  	max-width: 960px;
   	margin: 0 auto;
- 	padding: 0 20px;
 	box-sizing: border-box;
 }
 
-.color-column {
+.color-column-venu {
 	font-size: 17px;
 	text-align: center;
 	display: inline-block;
@@ -446,39 +486,183 @@ VENU PAGE
 	margin-bottom: 100px;
 }
 
-.color-column p {
+.container-venu .color-column-venu p {
 	padding: 15px 5px 5px 5px;
 }
 
-.container-venu .color-column:nth-child(1) {
+.container-venu .color-column-venu:nth-child(1) {
 	background-color: #333;
 	color: #f5f5f5;
 }
 
-.container-venu .color-column:nth-child(2) {
+.container-venu .color-column-venu:nth-child(2) {
 	background-color: #FB3F76;
 	color: #FBD9E3;
 }
 
-.container-venu .color-column:nth-child(3) {
+.container-venu .color-column-venu:nth-child(3) {
 	background-color: #FBD9E3;
 	color:#FB3F76; 
 }
 
-.container-venu .color-column:nth-child(4) {
+.container-venu .color-column-venu:nth-child(4) {
 	background-color: #f5f5f5;
 	color:#333;
-}/************************************************************
+}
+
+/************************************************************
 
 ARTISTS TEACHING ART
 
 **************************************************************/
 
-.plus {
-	width: 40px;
+.paint {
 	display: block;
 	margin: auto;
-	padding: 80px 5px 80px 5px;
+	height: 250px;
+	padding: 10px 0 10px 0
+}
+
+.escher {
+	display: block;
+	margin: auto;
+	height: 250px;
+	padding: 10px 0 10px 0
+}
+
+.atalogo {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+/************************************************************
+
+TRNGLE
+
+**************************************************************/
+
+.gold {
+	display: block;
+	width: 25%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.trngle-name {
+	display: block;
+	width: 20%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.color-and-type-trngle {
+	width: 70%;
+	margin: auto;
+}
+
+.color-and-type-trngle h3 {
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 22px;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.fancy-border-trngle {
+	list-style: none;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.fancy-border-trngle li {
+	display: inline-block;
+	width: 33.3333%;
+	height: 1px;
+}
+
+.fancy-border-trngle li:nth-child(1) {
+  background:#333;
+}
+
+.fancy-border-trngle li:nth-child(2) {
+  background:#333;
+}
+
+.fancy-border-trngle li:nth-child(3) {
+  background:#333;
+}
+
+.font-showcase-trngle {
+	font-family: 'GT-Walsheim-Pro', sans-serif;
+	font-size: 22px;
+	line-height: 200%;
+}
+
+.trngle-yellow {
+	color: #E6D669;
+}
+
+.trngle-yellow h3 {
+	color: #E6D669;
+}
+
+.colors-trngle {
+	margin-bottom: 40px;
+}
+
+.colors-trngle div {
+	margin: 10px;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+
+.colors-trngle div p {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-top: 80px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.colors-trngle div:nth-child(1) {
+	margin-left: 0;
+	background-color: #333333;
+	color: #333333;
+}
+
+.colors-trngle div:nth-child(2) {
+	background-color: #999;
+	color: #999;
+}
+
+.colors-trngle div:nth-child(3) {
+	background-color: #E6D669;
+	color: #E6D669;
+}
+
+.colors-trngle div:nth-child(4) {
+	background-color: #F56363;
+	color: #F56363;
+}
+
+.colors-trngle div:nth-child(5) {
+	margin-right: 0;
+	background-color: #6FD400;
+	color:#6FD400;
+}
+
+.trngleapp-icon {
+	width: 80px;
+	margin: auto;
+	display: block;
+	border: 3px solid #E6D669;
+	background-color: #E6D669;
+	border-radius: 12px;
+	padding: 15px 12px 15px 12px;
 }
 
 
