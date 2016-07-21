@@ -5,8 +5,6 @@
 body {
 	font-family: 'San Francisco', sans-serif;
 	color: #222;
-	text-align: justify;
-    text-justify: inter-word;
 }
 
 .body-text {
@@ -25,7 +23,7 @@ h3 {
 	color: #333;
 	font-weight: 600;
 	font-size: 1em;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	margin-bottom: 10px;
 }
 
@@ -53,7 +51,7 @@ nav ul li {
 	display: inline-block;
 	font-size: 12px;
 	padding: 0 0 0 7px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .hero {
@@ -70,32 +68,48 @@ nav ul li {
 }
 
 .venu {
-	border-radius: 2px;
-	background-color: #FB3F76;
+	border-radius: 5px;
+	background: #FF006D; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF559E ,#FF006D); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF559E ,#FF006D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
 .knowles {
-	border-radius: 2px;
+	border-radius: 5px;
 	background-color: #bf656a;
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
 .abroad {
-	border-radius: 2px;
+	border-radius: 5px;
 	background-color: #ff7449
+	background: #FF512F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #e77637 , #FF7449); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #e77637 , #FF7449); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
+        
 }
 
 .trngle {
-	background-color:#E6D669;
-	background-color: #FFA300;
+	border-radius: 5px;	
+	background: #485563; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
 .ata {
-	border-radius: 2px;	
+	border-radius: 5px;	
 	background-color: #01CDFF;
+	background: #00d2ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3a7bd5 , #00d2ff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3a7bd5 , #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
 .hostapup {
-	border-radius: 2px;
+	border-radius: 5px;
 	background-color: #60be78;
 }
 
@@ -142,11 +156,11 @@ nav ul li {
 	margin: auto;
 }
 
-.content-link {
+.center {
 	text-align: center;
 }
 
-.content-link:hover {
+.underline:hover {
 	text-decoration: underline;
 }
 
@@ -234,6 +248,7 @@ ABROAD PAGE
 	list-style: none;
 	margin: auto;
 	padding-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .fancy-border-abroad li {
