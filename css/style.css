@@ -75,6 +75,19 @@ nav ul li {
 	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
+.venu-font {
+	font-family: 'Avenir Next';
+	font: italic;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
 .knowles {
 	border-radius: 5px;
 	background-color: #bf656a;
@@ -82,21 +95,32 @@ nav ul li {
 }
 
 .abroad {
-	border-radius: 5px;
-	background-color: #ff7449
-	background: #FF512F; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #e77637 , #FF7449); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #e77637 , #FF7449); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	box-shadow: 0 1px 5px rgba(0,0,0,.15);
-        
+	border-radius: 5px;	
+	background: #FFB75E; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF772A , #FF6233); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF772A , #FF6233); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);     
+              
+}
+
+.abroad-font {
+	font-family: 'GT-Walsheim-Pro', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	padding-bottom: 10px;
 }
 
 .trngle {
 	border-radius: 5px;	
-	background: #485563; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 	box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	background: #ffb347; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 }
 
 .ata {
@@ -106,6 +130,17 @@ nav ul li {
 	background: -webkit-linear-gradient(to left, #3a7bd5 , #00d2ff); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #3a7bd5 , #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 1px 5px rgba(0,0,0,.15);
+}
+
+.ata-font {
+	font-family: 'Futura-condensed', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	padding-left: 3px;
+	padding-bottom: 10px;
 }
 
 .hostapup {
@@ -511,7 +546,7 @@ VENU PAGE
 }
 
 .container-venu .color-column-venu:nth-child(2) {
-	background-color: #FB3F76;
+	background-color: #FF006E;
 	color: #FBD9E3;
 }
 
