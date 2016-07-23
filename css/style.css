@@ -50,15 +50,15 @@ nav {
 nav ul li {
 	display: inline-block;
 	font-size: 12px;
-	padding: 0 0 0 7px;
+	padding: 0 5px 0 5px;
 	letter-spacing: 1px;
 }
 
 .hero {
 	font-family: Futura LT, sans-serif;
 	padding-top: 70px;
-	padding-bottom: 20px;
-	font-size: 60px;
+	padding-bottom: 50px;
+	font-size: 50px;
 }
 
 .hero h2 {	
@@ -143,6 +143,19 @@ nav ul li {
 	padding-bottom: 10px;
 }
 
+.vacca {
+	border-radius: 5px;
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+}
+
+.vacca-pres {
+	position: absolute;
+	width: 100%;
+}
+
 .hostapup {
 	border-radius: 5px;
 	background-color: #60be78;
@@ -167,7 +180,7 @@ nav ul li {
 	letter-spacing: 3px;
 	font-size: 15px;
 	line-height: 150%;
-	text-align: center;s
+	text-align: center;
 }
 
 .description { 
@@ -208,12 +221,28 @@ hr {
 }
 
 footer {
-	text-align: center;
-	padding-bottom: 50px;
+	background-color: #333;
+	color: white;
+	font-size: 20px;
+	padding: 20px 0 30px 0;
+	font-weight: 100px;
+}
+
+footer ul a li {
+	color: white;
+	font-size: 13px;
+	padding: 7px 0 7px 0;
+	font-weight: 100;
+	letter-spacing: 1px;
 }
 
 footer h2 {
-	padding-bottom: 15px;
+	padding: 20px 0 10px 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+	line-height: 150%;
 }
 
 /************************************************************
@@ -583,7 +612,8 @@ ARTISTS TEACHING ART
 .atalogo {
 	display: block;
 	margin: auto;
-	width: 60%;
+	margin-bottom: 50px;
+	width: 80%;
 }
 /************************************************************
 
@@ -615,6 +645,7 @@ TRNGLE
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	color: #E5DB61;
 	font-size: 22px;
 	font-weight: 100;
 	text-align: center;
@@ -622,28 +653,45 @@ TRNGLE
 	padding-bottom: 20px;
 }
 
+.font-showcase-trngle li:nth-child(1) {
+	font-weight: 200;
+}
+
+.font-showcase-trngle li:nth-child(2) {
+	font-weight: 400;
+}
+
+.font-showcase-tngle li:nth-child(3) {
+	font-weight: 200;
+}
+
+.font-showcase-trngle li:nth-child(4) {
+	font-weight: 100;
+}
+
 .fancy-border-trngle {
 	list-style: none;
 	margin: auto;
 	padding-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 .fancy-border-trngle li {
 	display: inline-block;
 	width: 33.3333%;
-	height: 1px;
+	height: 7px;
 }
 
 .fancy-border-trngle li:nth-child(1) {
-  background:#333;
+  background:#E5DB61;
 }
 
 .fancy-border-trngle li:nth-child(2) {
-  background:#333;
+  background:#EFE9A0;
 }
 
 .fancy-border-trngle li:nth-child(3) {
-  background:#333;
+  background:#F5F1C0;
 }
 
 .font-showcase-trngle {
@@ -727,13 +775,12 @@ ABOUT PAGE
 	border-radius: 100%;
 	width: 700px;
 	margin: auto;
-	margin-bottom: 40px;
 }
 
 .profile-container {
 	margin-top: 50px;
-	margin-bottom: 30px;
-	height: 450px;
+	margin-bottom: 50px;
+	height: 400px;
 	width: 100%;
 	background-image: url(../img/about/large-profile.jpg);
 	background-image: no-repeat;

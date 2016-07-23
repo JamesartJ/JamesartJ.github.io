@@ -16,9 +16,25 @@
 	 .screen {
 	 	width: 100%;
 	 }
+
+	 .atalogo {
+		width: 60%;
+	}
+
+	footer ul {
+		padding-left: 33%;
+	}
+
 }
 
 @media (min-width: 768px) {
+
+	.hero {
+		font-family: Futura LT, sans-serif;
+		padding-top: 70px;
+		padding-bottom: 20px;
+		font-size: 60px;
+}
 
 	.abroad-logo {
 		width: 300px;
