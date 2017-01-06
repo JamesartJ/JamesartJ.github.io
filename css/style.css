@@ -61,17 +61,27 @@ nav ul li {
 	font-size: 50px;
 }
 
-.hero h2 {	
+.hero h2 {
+	letter-spacing: .5px;	
 	font-weight: 400;
 	font-size: 0.5em;
 	line-height: 140%;
 }
 
+.ebay {
+	border-radius: 5px;	
+	background-color: #01CDFF;
+	background: #00d2ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #75D32D , #55B60A); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E43137 , #E43137); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+}
+
 .venu {
 	border-radius: 5px;
 	background: #FF006D; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #FF559E ,#FF006D); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #FF559E ,#FF006D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+	background: -webkit-linear-gradient(to left, #FF006D, #FF3F91); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF006D, #FF3F91); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
 	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 }
 
@@ -97,8 +107,8 @@ nav ul li {
 .abroad {
 	border-radius: 5px;	
 	background: #FFB75E; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #FF772A , #FF6233); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #FF772A , #FF6233); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to left, #FF6233, #FF772A); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF6233, #FF772A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 0 1px 5px rgba(0,0,0,.15);     
               
 }
@@ -118,8 +128,8 @@ nav ul li {
 	border-radius: 5px;	
 	box-shadow: 0 1px 5px rgba(0,0,0,.15);
 	background: #ffb347; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to left, #F0991A , #F8B528); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left,#F0991A , #F8B528); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
 
@@ -174,35 +184,51 @@ nav ul li {
 }
 
 .title {
+	// color: white;
+	// font-weight: 100;
+	// text-transform: capitalize;
+	// letter-spacing: 1px;
+	// font-size: 18px;
+	// line-height: 150%;
+	// text-align: center;
 	color: white;
-	font-weight: 100;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-transform: capitalize;
 	line-height: 150%;
-	text-align: center;
 }
 
 .description { 
 	font-family: 'San Francisco', sans-serif;
 	font-weight: 100;
 	color: white;
-	font-size: 11px;
-	line-height: 150%; 
+	font-size: 13px;
+	line-height: 175%; 
 	text-align: left;
 	letter-spacing: 1px;
 
 }
 
 .columns {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	// margin-top: 20px;
+	// margin-bottom: 20px;
 }
 
 .screen {
 	display: block;
 	width: 50%;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.screen-IA {
+	display: block;
+	width: 0%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .center {
@@ -568,6 +594,7 @@ VENU PAGE
 
 .container-venu .color-column-venu p {
 	padding: 15px 5px 5px 5px;
+	font-size: 14px;
 }
 
 .container-venu .color-column-venu:nth-child(1) {
@@ -771,11 +798,15 @@ ABOUT PAGE
 
 **************************************************************/
 
-.bio {
+.bio-photo {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	height: 600px
 
+}
+
+.bio-text {
+	margin-top: 20px;
 }
 
 .profile-container {
@@ -793,3 +824,6 @@ ABOUT PAGE
 	font-weight: bold;
 }
 
+.bullet {
+	list-style-type: circle;
+}
