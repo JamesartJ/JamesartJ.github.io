@@ -2,19 +2,29 @@
 	.hero-text {
 		display: none;
 	}
+
 }
 
 @media (max-height: 345px) {
 	.scroll {
 		display: none;
 	}
+
 }
 
 @media (min-width: 550px) {
 	 .text {padding-top: 20px;}
 
+	 .bio-text {
+		margin-top: 0;
+	}
+
 	 .screen {
 	 	width: 100%;
+	 }
+
+	 .screen-IA {
+	 	width: 70%
 	 }
 
 	 .atalogo {
@@ -28,13 +38,6 @@
 }
 
 @media (min-width: 768px) {
-
-	.hero {
-		font-family: Futura LT, sans-serif;
-		padding-top: 70px;
-		padding-bottom: 20px;
-		font-size: 60px;
-}
 
 	.abroad-logo {
 		width: 300px;
@@ -50,11 +53,14 @@
 	}
 
 	header {
+		font-weight: 700;
 		text-align: left;
 		float: left;
 		width: 170px;
 		// padding-left: 60px;
-		padding-top: 45px;
+		padding-top: 42px;
+		font-size: 15px;
+		letter-spacing: .5px;
 	}
 
 	nav {
@@ -69,22 +75,19 @@
 		// padding-right: 53px;
 	}
 
-	nav a {
-		font-size: 1em;
-	}
 
 	.hero {
-		margin-top: 30px;
-		margin-bottom: 40px;
+		padding-bottom: 50px;
 	}
 
 	.hero h2 {
-		letter-spacing: 1.5px;
+		letter-spacing: 0px;
+		letter-spacing: -.5px;
 		padding: none;
-		font-size: 0.5em;
-		padding-top: 5px;
-		font-weight: 400;
-		line-height: 150%;
+		font-size: 50px;
+		padding-top: 100px;
+		font-weight: 700;
+		line-height: 125%;
 	}
 
 	.project-title {
@@ -108,7 +111,7 @@
 	}
 
 	.text {
-		padding-top: 10%;
+		padding-top: 9%;
 		padding-right: 100px;
 		padding-bottom: 10%;
 
@@ -116,7 +119,7 @@
 
 	.description {
 		line-height: 200%;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.row {

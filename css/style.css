@@ -28,17 +28,45 @@ h3 {
 }
 
 nav a {
-	font-size: 1em;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 14px;
+	letter-spacing: .2px;
+	position: relative;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 /*NAV AND HEADER*/
 
 header {
 	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 0.7em;
+	text-transform: capitalize;
+	letter-spacing: .2px;
+	font-size: 17px;
 	padding-top: 30px;
+	padding-bottom: 3px;
 }
 
 nav {
@@ -55,17 +83,16 @@ nav ul li {
 }
 
 .hero {
-	font-family: Futura LT, sans-serif;
-	padding-top: 70px;
-	padding-bottom: 50px;
-	font-size: 50px;
+	padding-bottom: 20px;
 }
 
 .hero h2 {
-	letter-spacing: .5px;	
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -.5px;	
 	font-weight: 400;
-	font-size: 0.5em;
-	line-height: 140%;
+	font-size: 30px;
+	padding-top: 70px;
+	line-height: 150%;
 }
 
 .ebay {
@@ -184,19 +211,13 @@ nav ul li {
 }
 
 .title {
-	// color: white;
-	// font-weight: 100;
-	// text-transform: capitalize;
-	// letter-spacing: 1px;
-	// font-size: 18px;
-	// line-height: 150%;
-	// text-align: center;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	font-size: 20px;
-	text-transform: capitalize;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 18px;
 	line-height: 150%;
+	text-align: center;
 }
 
 .description { 
