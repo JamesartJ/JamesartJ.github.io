@@ -1,17 +1,49 @@
 /*BASIC SHIT*/
 @import url(http://nicholastodor.com/sf/usesf.css);
 @font-face { font-family: Futura LT; src: url('FuturaLT-*.ttf'); } 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-	font-family: 'San Francisco', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #222;
 }
 
 .body-text {
-	font-family: 'San Francisco', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 170%;
-	font-size: 13px;
+	font-size: 14px;
 	margin-bottom: 50px;
+}
+
+.animated-link {
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 14px;
+	letter-spacing: .2px;
+	position: relative;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+
+.animated-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.animated-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 a {
@@ -25,6 +57,10 @@ h3 {
 	font-size: 1em;
 	letter-spacing: .5px;
 	margin-bottom: 10px;
+}
+
+.aside {
+	padding-top: 10px;
 }
 
 nav a {
@@ -63,7 +99,6 @@ nav a:hover:before {
 header {
 	text-align: center;
 	text-transform: capitalize;
-	letter-spacing: .2px;
 	font-size: 17px;
 	padding-top: 30px;
 	padding-bottom: 3px;
@@ -97,19 +132,28 @@ nav ul li {
 
 .ebay {
 	border-radius: 5px;	
-	background-color: #01CDFF;
-	background: #00d2ff; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #75D32D , #55B60A); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #E43137 , #E43137); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	background-color: #E43137;
+    -webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.ebay:hover {
+	background-color: #B10004;
 }
 
 .venu {
 	border-radius: 5px;
-	background: #FF006D; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #FF006D, #FF3F91); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #FF006D, #FF3F91); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
-	box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	background: #FF006D;
+	-webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.venu:hover {
+	background: #CC003A;
 }
 
 .venu-font {
@@ -133,11 +177,15 @@ nav ul li {
 
 .abroad {
 	border-radius: 5px;	
-	background: #FFB75E; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #FF6233, #FF772A); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #FF6233, #FF772A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 0 1px 5px rgba(0,0,0,.15);     
-              
+	background-color: #FF6233;
+	-webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.abroad:hover {
+	background-color: #E6491A;
 }
 
 .abroad-font {
@@ -153,20 +201,28 @@ nav ul li {
 
 .trngle {
 	border-radius: 5px;	
-	box-shadow: 0 1px 5px rgba(0,0,0,.15);
-	background: #ffb347; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #F0991A , #F8B528); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left,#F0991A , #F8B528); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+	background: #F29F1D;
+	-webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.trngle:hover {
+	background: #D98604;
 }
 
 .ata {
 	border-radius: 5px;	
-	background-color: #01CDFF;
-	background: #00d2ff; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #3a7bd5 , #00d2ff); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #3a7bd5 , #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	background-color: #09C4F8;
+	-webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.ata:hover {
+	background-color: #009ED2;
 }
 
 .ata-font {
@@ -182,10 +238,15 @@ nav ul li {
 
 .vacca {
 	border-radius: 5px;
-	background: #232526; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+	background: #68316A;
+	-webkit-transition: background .3s ease-out;  
+    -moz-transition: background .3s ease-out;  
+    -o-transition: background .3s ease-out;  
+    transition: background .3s ease-out; 
+}
+
+.vacca:hover {
+	background: #420B44
 }
 
 .vacca-pres {
@@ -221,7 +282,7 @@ nav ul li {
 }
 
 .description { 
-	font-family: 'San Francisco', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	color: white;
 	font-size: 13px;
@@ -269,27 +330,27 @@ hr {
 }
 
 footer {
-	background-color: #333;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #232526;
 	color: white;
 	font-size: 20px;
-	padding: 20px 0 30px 0;
-	font-weight: 100px;
+	padding: 20px 0 50px 0;
 }
 
 footer ul a li {
 	color: white;
-	font-size: 13px;
-	padding: 7px 0 7px 0;
-	font-weight: 100;
+	font-size: 14px;
+	padding: 15px 0 15px 0;
+	font-weight: 400;
 	letter-spacing: 1px;
 }
 
 footer h2 {
-	padding: 20px 0 10px 0;
-	font-weight: 100;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 15px;
+	padding: 50px 0 20px 0;
+	font-weight: 400;
+	text-transform: capitalize;
+	letter-spacing: 1px; 
+	font-size: 20px;
 	line-height: 150%;
 }
 
@@ -300,16 +361,18 @@ ABROAD PAGE
 **************************************************************/
 
 .project-title {
-	font-family: Futura LT, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	padding-top: 80px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-size: 60px;
 }
 
 .project-title h2 {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -.5px;	
 	font-weight: 400;
-	font-size: 0.5em;
-	line-height: 140%;
+	font-size: 30px;
+	line-height: 150%;
 }
 
 .abroad-logo {
@@ -337,7 +400,7 @@ ABROAD PAGE
 	font-size: 12px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'San Francisco', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .color-and-type-abroad {
@@ -820,24 +883,12 @@ ABOUT PAGE
 **************************************************************/
 
 .bio-photo {
-	margin-top: 100px;
-	margin-bottom: 100px;
-	height: 600px
-
-}
-
-.bio-text {
-	margin-top: 20px;
-}
-
-.profile-container {
 	display: block;
-	background-image: url(../img/about/jamesjosephson.jpg);
-	background-image: no-repeat;
-	background-position: center;
-	background-size: cover;
 	width: 100%;
-	min-height: 550px;
+	border-radius: 100%;
+	border: 1px solid #ccc;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 

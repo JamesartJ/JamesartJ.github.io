@@ -15,9 +15,13 @@
 @media (min-width: 550px) {
 	 .text {padding-top: 20px;}
 
-	 .bio-text {
-		margin-top: 0;
-	}
+	 .bio {
+		padding-bottom: 100px;
+	 }
+
+	 #about-me {
+	 	padding-top: 100px;
+	 }
 
 	 .screen {
 	 	width: 100%;
@@ -35,6 +39,21 @@
 		padding-left: 33%;
 	}
 
+	footer {
+		padding-bottom: 150px;
+		padding-top: 100px;
+	}
+
+	footer h2 {
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+
+	footer ul a li {
+		font-family: 'San Francisco', sans-serif;
+		font-weight: 100;
+		font-size: 20px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -60,7 +79,6 @@
 		// padding-left: 60px;
 		padding-top: 42px;
 		font-size: 15px;
-		letter-spacing: .5px;
 	}
 
 	nav {
@@ -85,9 +103,9 @@
 		letter-spacing: -.5px;
 		padding: none;
 		font-size: 50px;
-		padding-top: 100px;
+		padding-top: 200px;
 		font-weight: 700;
-		line-height: 125%;
+		line-height: 1s%;
 	}
 
 	.project-title {
@@ -96,25 +114,25 @@
 	}
 
 	.project-title h2 {
-		letter-spacing: 2px;
+		letter-spacing: 0px;
+		letter-spacing: -.5px;
 		padding: none;
-		font-size: 0.6em;
-		padding-top: 5px;
-		font-weight: 400;
+		font-size: 50px;
+		font-weight: 700;
 		line-height: 150%;
 	}
 
 	.screen-container {
-		padding-left: 40px;
-		padding-top: 30px;
-		padding-bottom: 23px;
+		padding-left: 70px;
+		padding-top: 110px;
+		padding-bottom: 100px;
 	}
 
 	.text {
-		padding-top: 9%;
+		padding-top: 15%;
 		padding-right: 100px;
 		padding-bottom: 10%;
-
+		padding-left: 0;
 	}
 
 	.description {
@@ -123,7 +141,7 @@
 	}
 
 	.row {
-		margin: 0px 0 60px 0;
+		margin: 0px 0 70px 0;
 	}
 
 	.colors {
