@@ -29,7 +29,8 @@
 		<h2>eBay</h2>
 	</div>
 	<div class="container">
-		<p class="body-text">Ebay’s partnered with Oregon Gear Up as part of Ebay’s ongoing support of nonprofits. Oregon Gear Up is an Oregon based nonprofit which aims to help prepare low-income students for postsecondary programs. They attend different schools across the state to help encourage and facilitate college readiness. They work with school staff to  "design program activities that meet the needs of their community grounded in (their) research-based model.” Additionally, their website catalogs a list of steps to plan college applications, financial aid, and how to attend once accepted. I worked with Oregon Gear Up as part of Ebay's team to design a mobile app which would aid their organization’s cause.</p>
+		<h3>The Project</h3>
+		<p class="body-text">Ebay partnered with Oregon Gear Up as part of Ebay’s ongoing support for nonprofits. Oregon Gear Up is an Oregon based nonprofit which aims to help prepare low-income students for postsecondary educational programs. They attend different schools across the state to help encourage and facilitate college readiness. They work with school staff to  "design program activities that meet the needs of their community grounded in (their) research-based model.” Additionally, their website catalogs a list of steps to plan college applications, financial aid, and how to attend once accepted. I worked with Oregon Gear Up as part of Ebay's team to design a mobile app which would aid their organization’s cause.</p>
 		<div class="row-">
 			<div class="six columns">
 				<h3>The Problem</h3>
@@ -45,31 +46,57 @@
 			</div>
 		</div>
 		<h3>Persona Development</h3>
-		<p class="body-text">In order to better understand these student’s needs, I needed to understand their behaviors. The team decided to focus on a narrow target audience, all of the same demographic with similar behaviors, needs, and goals.</p>
+		<p class="body-text">To better understand these student’s needs, I needed to understand their behaviors. The team decided to focus on a narrow target audience, all members of the same demographic.</p>
 		<h3>Demographic</h3>
-		<p class="body-text">Low-income high school seniors, who are either curious about college or are already planning to apply.</p>
+		<p class="body-text">Low-income high school seniors, who are either curious about college or who are already planning to apply.</p>
 		<h3>Behaviors &amp Beliefs</h3>
 		<ul class="body-text bullet">
-			<li>College seems like a possibility, but isn’t worth trying to deal with all the complexity and paperwork</li>
-			<li >The components of college application, including admittance, financing, and attendance don’t fit together well</li>
-			<li>Unsure how to manage time effectively to stay on top of applications</li>
+			<li>Staying on top of applications through effective time managment is a challenge</li>
+			<li >The components of college applications, including admission, financing, and attendance don’t fit together well</li>
+			<li>College seems like a possibility, but isn’t worth trying to deal with all the complexity and paperwork</li>	
 		</ul>
 		<h3>Needs &amp Goals</h3>
 		<ul class="body-text bullet">
-			<li>Understand college options fully: both possible schools and financing opportunities</li>
-			<li>What steps to take and when to take them</li>
-			<li>Keep track of all the application information for all of the platforms along the way</li>
-			<li>Keep track of all their decisions and interests that help them make the right decision for themselves.</li>
+			<li>An understanding of all college options: both possible schools and financing opportunities</li>
+			<li>Knwoledge of the neccessary steps to take and when to take them</li>
+			<li>Keeping track of all the application information for all of the platforms along the way</li>
+			<li>Tracking all their decisions and interests that help them make the right decision for themselves.</li>
 		</ul>
 		<h3>Information Architecture</h3>
-		<p class="body-text">Explaination</p>
+		<p class="body-text">The primary components of the app are: the Task List, Upcoming Dates, Logins, and Profile. The Task List informs the user which steps they must take to prepare for college, and guides them through the completion of tasks in a helpful order. Tasks are nested in blocks which limit the number users can start at one time. Tasks also have stages which step the user the task's completion. Upcoming Dates informs the user of upcoming event's, tasks which are time-sensitive. In Upcoming Dates, event details are displayed with the option to add an event. Logins helps the user store and retreive their login information for different applications and services as well as manage their email for the college applicaiton process. Profile allows users to review and edit information added in the Task List as well as adjust settings for the app itself.</p>
 		<img src="img/gearupIA.jpg" class="screen-IA u-max-full-width">
-	</div>
 		<div class="row">
+		<div class="eight columns">
+				<h3>Task List or "Checkpoints"</h3>
+				<p class="body-text">The Task List which was renamed "Checkpoints" is broken down into subcomponents which help guide the user through each task's completion. The content hierarchy of blocks, tasks, and stages allows the user to multitask while still providing helpful linear structure. Blocks contain a small set number of tasks. The user can only start tasks within their current block and can progress through these tasks concurrently. Only once all tasks in the current block are completed the user unlocks the next block of tasks. Each task has a small number of stages which the user completes one at a time and in a set order. The user may exit a task and the completed stages are saved. Once all the stages for a task are complete that task is complete as well. The screen shown is an initial visual mockup. The colors inform the user of the tasks correspondance with one of three Oregon Gear Up task categories: "apply", "pay", "go". The bar to the right of the task's title displays the progress made on each task. The bottom navigation bar's elements correspond with the top level elements of the app's IA.</p>
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/checkpoints.png" class="screen u-max-full-width">
+			</div>
+		</div>
+			<div class="row">
+			<div class="four columns">
+			<h3>Task Page</h3>
+				<p class="body-text">
+					When the user selects a task from the checkpoints page, they navigate to its task page. Here, the use of a modal page allows the user to focus on the task at hand, working through each of its stages. The stages are represented as cards. By completing one stage, the user unlocks the next. The user can always scroll back through prior stages and edit the information saved there. The user's progress and placement within the task is tracked by the progress bar. Exiting the task saves the state of the task and returns the user to the Checkpoints page.
+				</p>
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/task1.png" class="u-max-full-width screen">
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/task2.png" class="screen u-max-full-width">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<p class="center body-text small-margin">This project is ongoing. More information about Oregon Gear Up can be found on</p>
 			<a href="http://oregongoestocollege.org/" class="underline center">
 				<h3>Oregon Gear Up's website</h3>
 			</a>
 		</div>
+	</div>
 	<footer>
 		<div class="container">
 			<div>
