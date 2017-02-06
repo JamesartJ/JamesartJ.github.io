@@ -275,13 +275,14 @@ nav ul li {
 
 .title {
 	color: white;
-	font-weight: 400;
+	font-weight: 100;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 150%;
 	text-align: center;
 }
+
 
 .description { 
 	font-family: 'Open Sans', sans-serif;
