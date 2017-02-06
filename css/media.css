@@ -15,10 +15,6 @@
 @media (min-width: 550px) {
 	 .text {padding-top: 20px;}
 
-	 .bio {
-		padding-bottom: 100px;
-	 }
-
 	 #about-me {
 	 	margin-top: 60px;
 	 }
@@ -136,7 +132,7 @@
 		display: flex;
   		justify-content: center;
   		flex-direction: column;
- 		height: 550px;
+ 		height: 565px;
  		padding-right: 100px;
  		padding-left: 0
 	}
