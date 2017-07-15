@@ -3,15 +3,36 @@
 @font-face { font-family: Futura LT; src: url('FuturaLT-*.ttf'); } 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+@font-face {
+	font-family: 'AkzidenzGrotesk';
+	src: url('../fonts/AkzidenzGrotesk-Light.otf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AkzidenzGrotesk';
+	src: url('../fonts/AkzidenzGrotesk-Regular.otf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AkzidenzGrotesk';
+	src: url('../fonts/AkzidenzGrotesk-Bold.otf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'AkzidenzGrotesk', sans-serif;
 	color: black;
 }
 
 
 
 .body-text {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'AkzidenzGrotesk', sans-serif;
 	line-height: 170%;
 	font-size: 14px;
 	margin-bottom: 50px;
@@ -124,7 +145,7 @@ nav ul li {
 }
 
 .hero h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AkzidenzGrotesk', sans-serif;
 	letter-spacing: -.5px;	
 	font-weight: 400;
 	font-size: 30px;
