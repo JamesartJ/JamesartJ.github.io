@@ -288,6 +288,7 @@ footer ul a li:hover {
 }
 
 .title {
+  margin-bottom: 20px;
   font-size: 40px;
   text-align: left !important;
 }
