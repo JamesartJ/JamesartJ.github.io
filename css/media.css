@@ -1,5 +1,13 @@
 @media (min-width: 550px) {
 
+	header {
+		margin-top: 100px;
+	}
+
+	.bio {
+		margin-top: 100px;
+	}
+
 	#arrow {
 		fill: #A6A6A6;
 	}
