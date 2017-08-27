@@ -312,7 +312,7 @@ footer ul a li:hover {
   vertical-align: middle;
   display: inline-block;
   width: 15px;
-  margin-right: 3px;
+  padding-right: 3px;
 }
 
 .arrow-label {
