@@ -3,10 +3,10 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrp-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -14,115 +14,120 @@
 	<title>James Josephson</title>
 </head>
 <body>
+	<div class="bar ebay"></div>
 	<div class="container">
-		<header>
-			<a href="index.html">
-				<h2>James Josephson</h2>
-			</a>
+		<header class="left">
+		<a href="index.html" class="back">
+			<svg class="arrow" width="44px" height="34px" viewBox="0 0 44 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+			    <title>arrow</title>
+			    <desc>back button</desc>
+			    <defs></defs>
+			    <g id="back-g" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(22.000000, 17.000000) scale(-1, 1) translate(-22.000000, -17.000000) " fill-rule="nonzero" fill="#ccc">
+            <path d="M25.1,2.2 C25.1,2.7 25.3,3.2 25.7,3.6 L37.1,15 L2.1,15 C1,15 0.1,15.9 0.1,17 C0.1,18.1 1,19 2.1,19 L37.1,19 L25.7,30.4 C25.3,30.8 25.1,31.3 25.1,31.8 C25.1,32.3 25.3,32.8 25.7,33.2 C26.5,34 27.7,34 28.5,33.2 L43.3,18.4 C44.1,17.6 44.1,16.4 43.3,15.6 L28.5,0.7 C27.7,-0.1 26.5,-0.1 25.7,0.7 C25.3,1.1 25.1,1.6 25.1,2.2 Z" id="Shape"></path>
+        </g></g>
+			</svg>
+			<h2 class="arrow-label">All</h2>
+		</a>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html">work</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="mailto:JamesartJ@gmail.com">email</a></li>	
-			</ul>
-		</nav>
-	</div>
-	<div class="project-title container">
-		<h2>eBay</h2>
-	</div>
-	<div class="container">
-		<h3>The Project</h3>
-		<p class="body-text">Ebay partnered with Oregon Gear Up as part of Ebay’s ongoing support for nonprofits. Oregon Gear Up is an Oregon based nonprofit which aims to help prepare low-income students for postsecondary educational programs. They attend different schools across the state to help encourage and facilitate college readiness. They work with school staff to  "design program activities that meet the needs of their community grounded in (their) research-based model.” Additionally, their website catalogs a list of steps to plan college applications, financial aid, and how to attend once accepted. I worked with Oregon Gear Up as part of Ebay's team to design a mobile app which would aid their organization’s cause.</p>
-		<div class="row-">
-			<div class="six columns">
+		<div class="text-box">
+		<h1 class="title">Ebay</h1>
+		</div>
+		<div class="row row-gutter">
+			<div class="four columns">
+				<h3>The Project</h3>
+				<p>I worked as the lead UX designer on app for eBay&rsquo;s charity department in collaboration with the nonprofit Oregon Gear Up. I performed the user research and designed both the app&rsquo;s experience and interaction.</p>
+			</div>
+			<div class="four columns">
 				<h3>The Problem</h3>
-				<p class="body-text">
-					Low-income students in Oregon lack the tools and support to properly navigate the college admission and financial aid processes.
-				</p>
+				<p>Low-income students in Oregon lack the tools and support to properly navigate the college admission and financial aid processes.</p>
 			</div>
-			<div class="six columns">
+			<div class="four columns">
 				<h3>The Objective</h3>
-				<p class="body-text">
-					Design a solution which will elucidate the application processand which guides users through its many facets, encouraging them to stay on track.
-				</p>
+				<p>Design a solution which will elucidate the application process and which guides users through its many facets, encouraging them to stay on track.</p>
 			</div>
 		</div>
-		<h3>Persona Development</h3>
-		<p class="body-text">To better understand these student’s needs, I needed to understand their behaviors. The team decided to focus on a narrow target audience, all members of the same demographic. All target users are Low-income high school seniors, who are either curious about college or who are already planning to apply.</p>
-		<p class="body-text"></p>
-		<h3>Behaviors &amp Beliefs</h3>
-		<ul class="body-text bullet">
-			<li>Staying on top of applications through effective time managment is a challenge</li>
-			<li >The components of college applications, including admission, financing, and attendance don’t fit together well</li>
-			<li>College seems like a possibility, but isn’t worth trying to deal with all the complexity and paperwork</li>	
-		</ul>
-		<h3>Needs &amp Goals</h3>
-		<ul class="body-text bullet">
-			<li>Provide a clear understanding about the options: which schools align with students individual interests and goals, financial aid opportunities and payment plans</li>
-			<li>Foresight into the application process and associated deadlines</li>
-			<li>Encouraging a sense of self-worth and determination throughout the college application process</li>
-			<li>Enabling students to make the right decision for themselves</li>
-		</ul>
-		<h3>Information Architecture</h3>
-		<p class="body-text">The primary components of the app are: the Checkpoints, Upcoming Dates, Logins, and Profile. The Checkpoints informs the user which steps they must take to prepare for college, and guides them through the completion of tasks in a helpful order. Tasks are nested in blocks and users can only start tasks in their current block. Tasks also have stages which step the user the task's completion. Upcoming Dates informs the user of upcoming event's, tasks which are time-sensitive. In Upcoming Dates, event details are displayed with the option to add an event. Logins helps the user store and retreive their login information for different applications and services as well as manage their email for the college applicaiton process. Profile allows users to review and edit information added in the Checkpoints as well as adjust settings for the app itself.</p>
-		<img src="img/ebay/gearupIA.jpg" class="screen-IA u-max-full-width">
-		<div class="row">
-		<div class="eight columns">
+		<div class="row row-gutter">
+			<div class="four columns">
 				<h3>Checkpoints</h3>
-				<p class="body-text">The Checkpoints are broken down into subcomponents which help guide the user through each task's completion. The content hierarchy of blocks, tasks, and stages allows the user to multitask while still providing helpful linear structure. Blocks contain a small set number of tasks. The user can only start tasks within their current block and can progress through these tasks concurrently. Only once all tasks in the current block are completed the user unlocks the next block of tasks. Each task has a small number of stages which the user completes one at a time and in a set order. The user may exit a task and the completed stages are saved. Once all the stages for a task are complete that task is complete as well. The screen shown is an initial visual mockup. The colors inform the user of the tasks correspondance with one of three Oregon Gear Up task categories: "apply", "pay", "go". The bar to the right of the task's title displays the progress made on each task. The bottom navigation bar's elements correspond with the top level elements of the app's IA.</p>
+				<p>The Checkpoints are broken down into subcomponents which help guide the user through each task&rsquo;s completion. The content hierarchy of blocks, tasks, and stages allows the user to multi-task while still providing helpful linear structure. Blocks contain a small set number of tasks. The user can only start tasks within their current block and can progress through these tasks concurrently.</p>
+
+				<p>Only once all tasks in the current block are completed the user unlocks the next block of tasks. Each task has a small number of stages which the user completes one at a time and in a set order. The user may exit a task and the completed stages are saved. Once all the stages for a task are complete that task is complete as well. </p>
 			</div>
 			<div class="four columns">
-				<img src="img/ebay/checkpoints.png" class="screen u-max-full-width">
-			</div>
-		</div>
-			<div class="row">
-			<div class="four columns">
-			<h3>Task Page</h3>
-				<p class="body-text">
-					When the user selects a task from the checkpoints page, they navigate to its task page. Here, the use of a modal page allows the user to focus on the task at hand, working through each of its stages. The stages are represented as cards. By completing one stage, the user unlocks the next. The user can always scroll back through prior stages and edit the information saved there. The user's progress and placement within the task is tracked by the progress bar. Exiting the task saves the state of the task and returns the user to the Checkpoints page.
-				</p>
-			</div>
-			<div class="four columns">
-				<img src="img/ebay/task1.png" class="u-max-full-width screen">
-			</div>
-			<div class="four columns">
-				<img src="img/ebay/task2.png" class="screen u-max-full-width">
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<p class="center body-text small-margin">This project is ongoing. More information about Oregon Gear Up can be found on</p>
-			<a href="http://oregongoestocollege.org/" class="underline center">
-				<h3>Oregon Gear Up's website</h3>
-			</a>
-		</div>
-	</div>
-	<footer>
-		<div class="container">
-			<div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>My Work</h2></li>
-						<a href="ebay.html"><li>eBay</li></a>
-						<a href="venu.html"><li>Venu</li></a>
-						<a href="abroad.html"><li>Abroad</li></a>
-						<a href="trngle.html"><li>Trngle</li></a>
-						<a href="artiststeachingart.html"><li>Artists Teaching Art</li></a>
-					</ul>
+				<img src="img/ebay/checkpoints.jpg" class="screen">
+				<div class="text-box screen-caption">
+					<h2>Checkpoints</h2>
 				</div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>Me</h2></li>
-						<a href="about.html"><li>About</li></a>
-						<a href="mailto:JamesartJ@gmail.com"><li>Email</li></a>
-						<!-- <a href="img/resume/JamesJosephsonResume.pdf"><li>Resume</li></a> -->
-						<a href="https://www.behance.net/jamesjosephson"><li>Behance</li></a>
-						<a href="https://www.linkedin.com/in/jamesjosephson"><li>Linkedin</li></a>
-					</ul>
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/dates.jpg" class="screen">
+				<div class="text-box screen-caption">
+					<h2>Dates</h2>
 				</div>
 			</div>
 		</div>
-	</footer>
+		<div class="row row-gutter">
+			<div class="four columns">
+				<h3>Task Page</h3>
+				<p>When the user selects a task from the checkpoints page, they navigate to its task page. Here, the use of a modal page allows the user to focus on the task at hand, working through each of its stages. The stages are represented as cards. By completing one stage, the user unlocks the next. The user can always scroll back through prior stages and edit the information saved there. The user&rsquo;s progress and placement within the task is tracked by the progress bar. Exiting the task saves the state of the task and returns the user to the Checkpoints page.</p>
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/stage2.jpg" class="screen">
+				<div class="text-box screen-caption">
+					<h2>Task 2</h2>
+				</div>
+			</div>
+			<div class="four columns">
+				<img src="img/ebay/stage3.jpg" class="screen">
+				<div class="text-box screen-caption">
+					<h2>Task 3</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row row-gutter">
+			<div class="four columns">
+				<h3>Persona Development</h3>
+				<p>To better understand these student&rsquo;s needs, I needed to understand their behaviors. The team decided to focus on a narrow target audience, all members of the same demographic. All target users are Low-income high school seniors, who are either curious about college or who are already planning to apply.</p>
+			</div>
+			<div class="four columns">
+				<h3>Needs and Goals</h3>
+				<p>Provide a clear understanding about the options: which schools align with students individual interests and goals, financial aid opportunities and payment plans</p>
+				<p>Foresight into the application process and associated deadlines</p>
+				<p>Encouraging a sense of self-worth and determination throughout the college application process</p>
+				<p>Enabling students to make the right decision for themselves</p>
+			</div>
+			<div class="four columns">
+				<h3>Behaviors and Beliefs</h3>
+				<p>Staying on top of applications through effective time management is a challenge</p>
+				<p>The components of college applications, including admission, financing, and attendance don’t fit together well</p>
+				<p>College seems like a possibility, but isn’t worth trying to deal with all the complexity and paperwork</p>
+			</div>
+		</div>
+	</div>
+ 	<footer>
+ 		<div class="container">
+	 		<ul>
+	 			<a href="index.html"><li>All</li></a>
+	 			<li> &middot </li>
+	 			<a href="ebay.html"><li id="active">Ebay</li></a>
+	 			<li> &middot </li>
+	 			<a href="stockt.html"><li>Stockt</li></a>
+	 			<li> &middot </li>
+	 			<a href="abroad.html"><li>Abroad</li></a>
+	 			<li> &middot </li>
+	 			<a href="trngle.html"><li>Trngle</li></a>
+	 			<li> &middot </li>
+	 			<a href="good_coffee.html"><li>Good Coffee</li></a>
+	 			<li> &middot </li>
+	 			<a href="karma.html"><li>Karma</li></a>
+	 			<li> &middot </li>
+	 			<a href="Venu.html"><li>Venu</li></a>
+	 			<li> &middot </li>
+	 			<a href="artists_teaching_art.html"><li>Artists Teaching Art</li></a>
+	 		</ul>
+ 		</div>
+ 	</footer>
 </body>
+</html>

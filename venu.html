@@ -3,10 +3,10 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrp-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -14,100 +14,80 @@
 	<title>James Josephson</title>
 </head>
 <body>
+	<div class="bar venu"></div>
 	<div class="container">
-		<header>
-			<a href="index.html">
-				<h2>James Josephson</h2>
-			</a>
+		<header class="left">
+		<a href="index.html" class="back">
+			<svg class="arrow" width="44px" height="34px" viewBox="0 0 44 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+			    <title>arrow</title>
+			    <desc>back button</desc>
+			    <defs></defs>
+			    <g id="back-g" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow" transform="translate(22.000000, 17.000000) scale(-1, 1) translate(-22.000000, -17.000000) " fill-rule="nonzero" fill="#ccc">
+            <path d="M25.1,2.2 C25.1,2.7 25.3,3.2 25.7,3.6 L37.1,15 L2.1,15 C1,15 0.1,15.9 0.1,17 C0.1,18.1 1,19 2.1,19 L37.1,19 L25.7,30.4 C25.3,30.8 25.1,31.3 25.1,31.8 C25.1,32.3 25.3,32.8 25.7,33.2 C26.5,34 27.7,34 28.5,33.2 L43.3,18.4 C44.1,17.6 44.1,16.4 43.3,15.6 L28.5,0.7 C27.7,-0.1 26.5,-0.1 25.7,0.7 C25.3,1.1 25.1,1.6 25.1,2.2 Z" id="Shape"></path>
+        </g></g>
+			</svg>
+			<h2 class="arrow-label">All</h2>
+		</a>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html">work</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="mailto:JamesartJ@gmail.com">email</a></li>	
-			</ul>
-		</nav>
-	</div>
-	<div class="project-title container">
-		<h2>Venu</h2>
-	</div>
-	<div class="container">
-		<h3>Branding</h3>
-		<p class="body-text">Venu is a web platform designed to allow users to collaborate with artists in order to host events. The Venu network allows artists of all kinds to collaborate with venue owner's to fill their spaces with art and produce events. In working on their branding, I wanted to use a metaphor for space. I decided on the metaphor of paper, and decided to use the action of folding to represent the crafting of a unique event. The venu network is itself a space which users interact with to create events. This parallels the proccess of folding a piece of paper, a process which can reuslt in an unlimited number of unique creations. Origami discourages the use of cutting or glueing, neglecting the use of external instruments. Just like in Origami, Venu aims to be complete unto itself. All kinds of events can be created via the platform, its just a matter of proper shaping. Using this metaphor, I crafted a logo which took inspiration from the platforms primary letterform, a "V". </p>
-		<img class="venu-paper" src="img/venupaper.png">
-		<img class="venu-img" src="img/venudots.png">
-		<img class="venu-img" id="venu-logo" src="img/venulogo.png">
-		<h1 class="venu-title">venu</h1>
-		<p class="body-text">I chose pink as Venu's primary color. The color is vibrant and useful as an accent to the platforms interface. The rest of the pallete is composed of off-black and space-grey. These colors are less harsh on screens than the often implimented pure black and white. The use of these neutral colors will better showcase content on Venu's interface, which will be dynamically populated by its users. I chose Avenir Next as the primary typography since it is a light modern sans-serif with good readable for the web.
-		</p>
-	</div>
-		<div class="color-and-type-venu">
-			<h3>color and type</h3>
-			<ul class="fancy-border-venu">
-				<li></li><li></li><li></li>
-			</ul>
-			<div class="row">
-				<div class="column one-half">
-					<ul class="font-showcase-venu radical-red">
-						<li>Avenir Next</li>
-						<li>Medium</li>
-						<li>Regular</li>
-						<li>Light</li>
-					</ul>
-				</div>
-				<div class="column one-half">
-					<ul class="font-showcase-venu mine-shaft">
-						<li>Avenir Next</li>
-						<li>Medium</li>
-						<li>Regular</li>
-						<li>Light</li>
-					</ul>
-				</div>
+		<div class="text-box">
+		<h1 class="title">Venu</h1>
+		</div>
+		<h3>Identity</h3>
+		<div class="row row-gutter">
+			<div class="four columns">
+				<p>Venu is a web platform designed to allow users to collaborate with artists in order to host events. The Venu network allows artists of all kinds to collaborate with venue owner&rsquo;s to fill their spaces with art and produce events. In working on their branding, I wanted to use a metaphor for space. I decided on the metaphor of paper, and decided to use the action of folding to represent the crafting of a unique event. The Venu network is itself a space which users interact with to create events.</p>
 			</div>
-			<div class="container-venu">
-				<div class="color-column-venu">
-					<p>#333333</p>
-				</div>
-				<div class="color-column-venu">
-					<p>#FF006E</p>
-				</div>
-				<div class="color-column-venu">
-					<p>#FBD9E3</p>
-				</div>
-				<div class="color-column-venu">
-					<p>#F5F5F5</p>
-				</div>
+			<div class="four columns">
+				<p>This parallels the process of folding a piece of paper, a process which can result in an unlimited number of unique creations. Origami discourages the use of cutting or gluing, neglecting the use of external instruments. Just like in Origami, Venu aims to be complete unto itself. All kinds of events can be created via the platform, its just a matter of proper shaping. Using this metaphor, I crafted a logo which took inspiration from the platforms primary letter-form, a "V".</p>
+			</div>
+			<div class="four columns">
+				<p>I chose pink as Venu&rsquo;s primary color. The color is vibrant and useful as an accent to the platforms interface. The rest of the palette is composed of off-black and space-grey. These colors are less harsh on screens than the often implimented pure black and white. The use of these neutral colors will better showcase content on Venu&rsquo;s interface, which will be dynamically populated by its users. I chose Avenir Next as the primary typography since it is a light modern sans-serif with good readable for the web.</p>
 			</div>
 		</div>
-		<div class="row">
-			<a href="http://venunetwork.com" class="underline center">
-				<h3>Venu is still in development</h3>
-			</a>
-		</div>
-	<footer>
-		<div class="container">
-			<div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>My Work</h2></li>
-						<a href="ebay.html"><li>eBay</li></a>
-						<a href="venu.html"><li>Venu</li></a>
-						<a href="abroad.html"><li>Abroad</li></a>
-						<a href="trngle.html"><li>Trngle</li></a>
-						<a href="artiststeachingart.html"><li>Artists Teaching Art</li></a>
-					</ul>
-				</div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>Me</h2></li>
-						<a href="about.html"><li>About</li></a>
-						<a href="mailto:JamesartJ@gmail.com"><li>Email</li></a>
-						<!-- <a href="img/resume/JamesJosephsonResume.pdf"><li>Resume</li></a> -->
-						<a href="https://www.behance.net/jamesjosephson"><li>Behance</li></a>
-						<a href="https://www.linkedin.com/in/jamesjosephson"><li>Linkedin</li></a>
-					</ul>
-				</div>
+		<div class="row row-gutter">
+			<div class="six offset-by-three columns">
+				<img src="img/venu/venupaper.png" class="u-full-width">
 			</div>
 		</div>
-	</footer>
+		<div class="row row-gutter">
+			<div class="six offset-by-three columns">
+				<img src="img/venu/venulogo.png" class="u-full-width">
+				<div class="display-text">
+				<img src="img/venu/colors.svg" class="u-full-width">
+			</div>
+			<div class="display-text">
+				<img src="img/venu/avenir_grey.svg" class="u-full-width">
+			</div>
+			<div class="display-text">
+				<img src="img/venu/avenir_pink.svg" class="u-full-width">
+			</div>
+			</div>
+		</div>
+	</div>
+ 	<footer>
+ 		<div class="container">
+	 		<ul>
+	 			<a href="index.html"><li>All</li></a>
+	 			<li> &middot </li>
+	 			<a href="ebay.html"><li>Ebay</li></a>
+	 			<li> &middot </li>
+	 			<a href="stockt.html"><li>Stockt</li></a>
+	 			<li> &middot </li>
+	 			<a href="abroad.html"><li>Abroad</li></a>
+	 			<li> &middot </li>
+	 			<a href="trngle.html"><li>Trngle</li></a>
+	 			<li> &middot </li>
+	 			<a href="good_coffee.html"><li>Good Coffee</li></a>
+	 			<li> &middot </li>
+	 			<a href="karma.html"><li>Karma</li></a>
+	 			<li> &middot </li>
+	 			<a href="Venu.html"><li  id="active">Venu</li></a>
+	 			<li> &middot </li>
+	 			<a href="artists_teaching_art.html"><li>Artists Teaching Art</li></a>
+	 		</ul>
+ 		</div>
+ 	</footer>
 </body>
+</html>

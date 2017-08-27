@@ -2,12 +2,11 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrp-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton-grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -16,132 +15,128 @@
 </head>
 <body>
 	<div class="container">
-		<header>
-			<a href="index.html">
-				<h2>James Josephson</h2>
-			</a>
+		<header class="bio">
+			<div class="photo-container">
+				<img src="img/index/profile-photo.jpg" class="photo">
+			</div>
+			<div class="intro-container">
+				<h1>James Josephson</h1>
+				<p class="intro">I am a product designer from San Francisco with a background in Math and Physics. I specialize in end-to-end user experience and front-end development. Currently, I&rsquo;m seeking opportunities to contribute as a full stack participant in research, strategy, information architecture, interaction design and development.</p>
+				<ul>
+					<a href="mailto:jamesartj@gmail.com"><li><i class="fa fa-envelope-o" aria-hidden="true"></i></li></a>
+					<a target="_blank" href="https://www.instagram.com/james_josephson"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+					<a target="_blank" href="https://www.linkedin.com/in/jamesjosephson"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+					<a target="_blank" href="https://www.behance.net/JamesJosephson"><li><i class="fa fa-behance" aria-hidden="true"></i></li></a>
+					<a target="_blank" href="https://www.facebook.com/JamesartJ"><li><i class="fa fa-facebook-official" aria-hidden="true"></i></li></a>
+				</ul>
+			</div>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html#work">work</a></li>
-				<li><a href="about.html">about</a></li>
-				<li><a href="mailto:JamesartJ@gmail.com">email</a></li>		
-			</ul>
-		</nav>
-	</div>
-	<div class="hero container">
-		<h2>Product and UX designer who actually enjoys writing code*</h2>
-		<h4 class="aside">*I'm still waiting for my acting career to take off.</h4>
-		<!-- <h2>Please check out my work.</h2> -->
-		<h2 id="work">My Work</h2>
 	</div>
 	<div class="container">
-		<a href="ebay.html">
-		<div class="row ebay overlay">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/ebay.png">
+		<div class="row row-margin">
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="ebay.html">
+		  			<div class="overlay ebay">
+		  				<img src="img/index/ebay_white.png" class="img">
+		  			</div>
+	  				<img src="img/index/ebay_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Product Design &middot User Experience &middot Interaction Design </h2>
+		  			<h1>Ebay</h1>
+	  			</div>
 			</div>
-			<div class="one-half column text">
-				<h3 class="title">Ebay</h3>
-				<p class="description">
-					I worked as the lead UX designer on app for eBay's charity department in collaboration with the nonprofit Oregon Gear Up. I performed the user research and designed both the app's interaction and visual treatment.
-				</p>
-			</div>
-		</div>
-		</a>
-		<a href="abroad.html">
-		<div class="row abroad">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/abroadiphone.png">
-			</div>
-			<div class="one-half column text">
-				<h3 class="title">abroad</h3>
-				<p class="description">
-					I designed Abroad's initial branding, and designed the app's UX. As their slogan "live like a local abroad" suggests, Abroad is an iOS app that connects users to local events while studying in foreign countries. 
-				</p>
-			</div>
-		</div>
-		</a>
-		<a href="venu.html">
-		<div class="row venu">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/macprovenu.png">
-			</div>
-			<div class="one-half column text">
-				<h3 class="title">venu</h3>
-				<p class="description">
-					I worked for Venu as a brand designer, and later was hired to design the patform's UX. Venu is a web platform which allows users to collaborate with local artists in order to host events. 
-				</p>
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="stockt.html">
+		  			<div class="overlay stockt">
+		  				<img src="img/index/stockt.png" class="img">
+		  			</div>
+	  				<img src="img/index/stockt_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Product Design &middot User Experience &middot Interaction Design</h2>
+		  			<h1>Stockt</h1>
+	  			</div>
 			</div>
 		</div>
-		</a>
-		<a href="trngle.html">
-		<div class="row trngle">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/trnlgeiphonealt.png">
+		<div class="row row-margin">
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="abroad.html">
+		  			<div class="overlay abroad">
+		  				<img src="img/index/abroad.png" class="img">
+		  			</div>
+	  				<img src="img/index/abroad_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Identity &middot User Experience &middot Interaction Design</h2>
+		  			<h1>Abroad</h1>
+	  			</div>
 			</div>
-			<div class="one-half column text">
-				<h3 class="title">trngle</h3>
-				<p class="description">
-					I worked with Trngle's founders to design the app's UX and and interface. Trngle is an iOS app that aims to network together creatives and allows them to collaborate on projects.
-				</p>
-			</div>
-		</div>
-		</a>
-		<a href="artiststeachingart.html">
-		<div class="row ata">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/macproata.png">
-			</div>
-			<div class="one-half column text">
-				<h3 class="title">Artists Teaching Art</h3>
-				<p class="description">
-					 I worked with the Sausalito Art Festival to design  brand and website for Artists Teaching Art. Artists Teaching Art program is a nonprofit which supports the arts in Marin County schools.
-				</p>
-			</div>
-		</div>
-		</a>
-		<a href="https://www.behance.net/gallery/28688301/Domenico-Vacca-Redesign-Concept"> 
-		<div class="row vacca">
-			<div class="one-half column">
-				<img class="u-max-full-width screen-container" src="img/macvacca.png">
-			</div>
-			<div class="one-half column text">
-				<h3 class="title">Domenico Vacca</h3>
-				<p class="description">
-					This redesign looked to update Domenico Vacca&#39s online identity as well as their web store. This was a mockup presented to the design firm hired to update their web presence.
-				</p>
-				<hr>
-				<a href="https://www.behance.net/gallery/28688301/Domenico-Vacca-Redesign-Concept"><h3 class='title'>ON BEHANCE</h3></a>
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="trngle.html">
+		  			<div class="overlay trngle">
+		  				<img src="img/index/trngle.png" class="img">
+		  			</div>
+	  				<img src="img/index/trngle_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>User Experience &middot Interaction Design</h2>
+		  			<h1>Trngle</h1>
+	  			</div>
 			</div>
 		</div>
-		</a>
-	</div>
-	<footer>
-		<div class="container">
-			<div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>My Work</h2></li>
-						<a href="ebay.html"><li>eBay</li></a>
-						<a href="venu.html"><li>Venu</li></a>
-						<a href="abroad.html"><li>Abroad</li></a>
-						<a href="trngle.html"><li>Trngle</li></a>
-						<a href="artiststeachingart.html"><li>Artists Teaching Art</li></a>
-					</ul>
-				</div>
-				<div class="one-half column">
-					<ul>
-						<li><h2>Me</h2></li>
-						<a href="about.html"><li>About</li></a>
-						<a href="mailto:JamesartJ@gmail.com"><li>Email</li></a>
-						<!-- <a href="img/resume/JamesJosephsonResume.pdf"><li>Resume</li></a> -->
-						<a href="https://www.behance.net/jamesjosephson"><li>Behance</li></a>
-						<a href="https://www.linkedin.com/in/jamesjosephson"><li>Linkedin</li></a>
-					</ul>
-				</div>
+		<div class="row row-margin">
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="good_coffee.html">
+		  			<div class="overlay coffee">
+		  				<img src="img/index/coffee.png" class="img">
+		  			</div>
+	  				<img src="img/index/coffee_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Product Design &middot User Experience &middot Interaction Design</h2>
+		  			<h1>Good Coffee</h1>
+	  			</div>
+			</div>
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="karma.html">
+		  			<div class="overlay karma">
+		  				<img src="img/index/karma.png" class="img">
+		  			</div>
+	  				<img src="img/index/karma_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Identity &middot Product Design &middot User Experience</h2>
+		  			<h1>Karma</h1>
+	  			</div>
 			</div>
 		</div>
-	</footer>
+		<div class="row row-gutter">
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="venu.html">
+		  			<div class="overlay venu">
+		  				<img src="img/index/venu.png" class="img">
+		  			</div>
+	  				<img src="img/index/venu_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Identity &middot Product Design &middot User Experience</h2>
+		  			<h1>Venu</h1>
+	  			</div>
+			</div>
+			<div class="six columns columns-override">
+				<a class="Grid-item" href="artists_teaching_art.html">
+		  			<div class="overlay artiststeachingart">
+		  				<img src="img/index/artiststeachingart.png" class="img">
+		  			</div>
+	  				<img src="img/index/artiststeachingart_preview.jpg" class="img">
+	  			</a>
+	  			<div class="text-box display-none">
+		  			<h2>Identity &middot Web Design &middot Development</h2>
+		  			<h1>Artists Teaching Art</h1>
+	  			</div>
+			</div>
+		</div>
+ 	</div>
 </body>
 </html>
