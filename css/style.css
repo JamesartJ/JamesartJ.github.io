@@ -43,7 +43,7 @@
 }
 
 body {
-	font-family: 'AkzidenzGrotesk', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	color: black;
 }
 
@@ -245,6 +245,14 @@ i {
 
 .vacca {
 	background-color: rgba(80, 80, 80, .6)
+}
+
+.copyright {
+  font-family: 'Avenir', sans-serif;
+  color: #ccc;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 20px;
 }
 
 footer {
