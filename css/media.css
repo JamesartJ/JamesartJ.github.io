@@ -13,22 +13,18 @@
 	}
 
 	#arrow {
+		transition: .4s;
 		fill: #A6A6A6;
 	}
 
-	.back {
-	  transition: .4s;
-	}
-
 	.back:hover #arrow{
+	  transition: .4s;
 	  color: black;
 	  fill: black;
-	  transition: .4s;
 	}
 
 	.back:hover .arrow-label {
 	  color: black;
-	  transition: .4s;
 	}
 
 	.arrow-label {
