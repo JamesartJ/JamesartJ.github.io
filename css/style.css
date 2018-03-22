@@ -211,6 +211,14 @@ i {
   opacity: 1;
 }
 
+.juniper {
+  background-color: rgba(38, 38, 38, 0.7);
+}
+
+.microsoft {
+  background-color: rgba(51, 121, 208, 0.7);
+}
+
 .ebay {
 	background-color: rgba(0, 174, 239, 0.7);
 }
